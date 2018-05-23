@@ -1,0 +1,504 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"                
+        android:background="#1565C0">
+
+      <LinearLayout 
+          android:orientation="vertical"
+          android:layout_height="match_parent"
+          android:layout_width="match_parent"
+          android:layout_marginBottom="10dp">
+          
+            <LinearLayout 
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"        
+        android:background="@drawable/bground"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"        
+        android:layout_marginRight="10dp"     
+        android:layout_marginBottom="10dp">
+            
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#9C27B0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Student Info" />
+    </LinearLayout>      
+            
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tsex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sex" />    
+            
+       
+       
+        <Spinner
+            android:id="@+id/ssex"
+            android:layout_width="match_parent"
+            android:entries="@array/sex"
+            android:popupBackground="@drawable/spinner_border"
+			android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"            
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age" />
+
+        <Spinner
+            android:id="@+id/sage"
+            android:layout_width="match_parent"
+            android:entries="@array/age"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/taddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <Spinner
+            android:id="@+id/saddress"
+            android:layout_width="match_parent"
+            android:entries="@array/address"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tfamsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Size" />
+
+        <Spinner
+            android:id="@+id/sfamSize"
+            android:layout_width="match_parent"
+            android:entries="@array/famsize"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tmotheredu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother Edu." />
+
+        <Spinner
+            android:id="@+id/smotheredu"
+            android:layout_width="match_parent"
+            android:entries="@array/motherEdu"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+        
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tfatheredu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Father Edu." />
+
+        <Spinner
+            android:id="@+id/sfatheredu"
+            android:layout_width="match_parent"
+            android:entries="@array/fatherEdu"   
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tmotherjob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mother Job" />
+
+        <Spinner
+            android:id="@+id/Smotherjob"
+            android:layout_width="match_parent"
+            android:entries="@array/motherjob"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tfatherjob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Father Job" />
+
+        <Spinner
+            android:id="@+id/Sfatherjob"
+            android:layout_width="match_parent"
+            android:entries="@array/fatherjob"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tguardian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardian" />
+
+        <Spinner
+            android:id="@+id/Sguardian"
+            android:layout_width="match_parent"
+            android:entries="@array/guardian"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Ttrav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Travel" />
+
+        <Spinner
+            android:id="@+id/Strav"
+            android:layout_width="match_parent"
+            android:entries="@array/travel"
+            android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tstudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Study" />
+
+        <Spinner
+            android:id="@+id/Sstudy"
+            android:layout_width="match_parent"
+            android:entries="@array/studytime"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+      
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tschoolsup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edu. Support" />
+
+         <Spinner
+            android:id="@+id/Sschoolsup"
+            android:layout_width="match_parent"
+            android:entries="@array/schoolsup"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>          
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tfamilysup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Support" />
+
+         <Spinner
+            android:id="@+id/Sfamilysup"
+            android:layout_width="match_parent"
+            android:entries="@array/famsup"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>          
+     
+     
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tactiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activities" />
+
+         <Spinner
+            android:id="@+id/Sactiv"
+            android:layout_width="match_parent"
+            android:entries="@array/activities"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Thigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher Edu." />
+
+         <Spinner
+            android:id="@+id/Shigh"
+            android:layout_width="match_parent"
+            android:entries="@array/higher"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet" />
+
+         <Spinner
+            android:id="@+id/Sinter"
+            android:layout_width="match_parent"
+            android:entries="@array/internet"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tromant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Support" />
+
+         <Spinner
+            android:id="@+id/Sromant"
+            android:layout_width="match_parent"
+            android:entries="@array/romantic"
+             android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"
+            android:popupBackground="@drawable/spinner_border"
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+		<Button 
+		    android:id="@+id/submit"
+		    android:text="Submit"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+		    android:onClick="OnClick"/>
+
+    </LinearLayout>    
+     
+    </LinearLayout>
+          
+      </LinearLayout>
+        
+    </ScrollView>
+    

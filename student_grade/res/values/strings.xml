@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grade</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="age">
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="address">
+        <item>Urban</item>
+        <item>Rural</item>
+    </string-array>
+    <string-array name="famsize">
+        <item>Less than 3</item>
+        <item>Greater than 3</item>
+    </string-array>
+    <string-array name="motherEdu">
+        <item>None</item>
+        <item>Primary education</item>
+        <item>5th to 9th grade</item>
+        <item>Secondary Education</item>
+        <item>Higher Education</item>
+    </string-array>
+    <string-array name="fatherEdu">
+        <item>None</item>
+        <item>Primary education</item>
+        <item>5th to 9th grade</item>
+        <item>Secondary Education</item>
+        <item>Higher Education</item>
+    </string-array>
+    <string-array name="motherjob">
+        <item>Teacher</item>
+        <item>Health</item>
+        <item>Services</item>
+        <item>At Home</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="fatherjob">
+        <item>Teacher</item>
+        <item>Health</item>
+        <item>Services</item>
+        <item>At Home</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="guardian">
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="travel">
+        <item>less than 15 min</item>
+        <item>15 to 30 min</item>
+        <item>30 min. to 1 hour</item>
+        <item>more than 1 hour</item>
+    </string-array>
+    <string-array name="studytime">
+        <item>less than 2 hours</item>
+        <item>2 to 5 hours</item>
+        <item>5 to 10 hours</item>
+        <item>more than 10 hours</item>
+    </string-array>
+    <string-array name="schoolsup">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="famsup">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="activities">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="higher">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="internet">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="romantic">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>
